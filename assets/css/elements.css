@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* as linhas a seguir são como as fontes add pelo google fontes devem ser inseridas no css.
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth; /* esse scroll faz a pagina deslizar*/
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  color: var(--primary-color);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+h1 img {
+  height: 8rem;
+  width: 10rem;
+}
+h2 {
+  font-size: 7rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+h3 {
+  font-size: 5rem;
+}
+h4 {
+  font-size: 4.5rem;
+}
+h5 {
+  font-size: 4rem;
+}
+h6 {
+  font-size: 3.5rem;
+}
+p {
+  margin-bottom: 2.5rem;
+}
+table {
+  min-width: 380px;
+  width: 100%;
+  border-collapse: collapse;
+}
+table caption {
+  font-style: italic;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+table td,
+table th {
+  white-space: nowrap;
+  padding: 0.8rem;
+  border: 0.1rem solid var(--light-grey-color);
+  text-align: left;
+}
+tfoot td,
+thead th {
+  background: var(--light-grey-color);
+}

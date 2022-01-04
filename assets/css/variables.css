@@ -1,0 +1,8 @@
+:root {
+  /* pode-se criar variaveis no css. Esa é uma variavel global*/
+  --primary-color: #02002e;
+  --white-color: #ffffff;
+  --light-grey-color: #eeee;
+  --secondary-color: crimson;
+  --gap: 3rem;
+}
