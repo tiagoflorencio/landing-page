@@ -38,6 +38,7 @@ h1 {
 h1 img {
   height: 8rem;
   width: 10rem;
+  padding-top: 0.5rem;
 }
 h2 {
   font-size: 7rem;

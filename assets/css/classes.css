@@ -21,6 +21,10 @@
 .menu-spacing {
   height: 6.5rem;
 }
+.menu-spacing-white {
+  height: 6.5rem;
+  background-color: var(--white-color);
+}
 
 .section {
   min-height: 100vh;
@@ -33,6 +37,7 @@
   grid-template-columns: 1fr 1.5fr;
   gap: var(--gap);
   min-height: 100vh;
+  padding-top: 14rem;
 }
 .intro-text,
 .intro-img {
@@ -68,10 +73,11 @@
   flex-flow: column wrap;
   justify-content: center;
   min-height: 100vh;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
 }
 .carteira-content h2 {
   margin-bottom: 1rem;
+  padding-top: 12rem;
 }
 .description-wallet {
   padding-bottom: 7rem;
@@ -126,7 +132,7 @@
   flex-wrap: nowrap;
   justify-content: center;
   min-height: 100vh;
-  padding-top: 6rem;
+  padding-top: 9rem;
 }
 .contact-form {
   grid-column: span 2;
@@ -151,6 +157,16 @@
   background: var(--white-color);
   padding: 1.5rem 2rem;
   width: 100%;
+  font-size: 20px;
+}
+.button {
+  margin-top: 30px;
+  display: block;
+  font-size: 2.5rem;
+  cursor: pointer;
+  border-radius: 10px;
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /*.contact-img img {
